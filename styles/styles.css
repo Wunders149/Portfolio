@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+p{
+    text-align: justify;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.language-switch {
+    margin-top: 10px;
+}
+
+.language-switch button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #f4f4f4;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 95%;
+    }
+    header h1{
+        font-size: 1.8em;
+    }
+    nav u li{
+        display: block;
+        margin: 5px 0;
+    }
+    nav ul li a{
+        font-size: 1.5em;
+    }
+    .language-switch{
+        text-align: center;
+        margin-top: 15px;
+    }
+    h2{
+        font-size: 1.8em;
+    }
+    footer p{
+        font-size: 0.9em;
+    }
+}
